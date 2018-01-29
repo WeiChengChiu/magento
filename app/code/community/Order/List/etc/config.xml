@@ -4,4 +4,11 @@
             <version>0.1.0</version>
         </Order_List>
     </modules>
+    <global>
+        <helpers>
+            <order_list>
+                <class>Order_List_Helper</class>
+            </order_list>
+        </helpers>
+    </global>
 </config>

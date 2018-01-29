@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Order_List>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Order_List>
+    </modules>
+</config>
