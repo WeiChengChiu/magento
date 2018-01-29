@@ -1,0 +1,13 @@
+<config>
+  <order translate="title" module="order_list">
+    <title>Order List</title>
+    <sort_order>1</sort_order>
+    <children>
+      <list>
+        <title>List</title>
+        <sort_order>1</sort_order>
+        <action>adminhtml/list/index</action>
+      </list>
+    </children>
+  </order>
+</config>
