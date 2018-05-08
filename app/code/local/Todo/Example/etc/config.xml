@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<config>
+  <modules>
+    <Todo_Example>
+      <version>0.1.0</version>
+    </Todo_Example>
+  </modules>
+  <global>
+    <models>
+      <example>
+        <class>Todo_Example_Model</class>
+      </example>
+    </models>
+    <blocks>
+      <example>
+        <class>Todo_Example_Block</class>
+      </example>
+    </blocks>
+    <helpers>
+      <example>
+        <class>Todo_Example_Helper</class>
+      </example>
+    </helpers>
+  </global>
+
+  <forntend>
+    <routers>
+      <example>
+        <use>standard</use>
+        <args>
+          <frontName>example</frontName>
+          <module>Todo_Example</module>
+        </args>
+      </example>
+    </routers>
+  </forntend>
+</config>
